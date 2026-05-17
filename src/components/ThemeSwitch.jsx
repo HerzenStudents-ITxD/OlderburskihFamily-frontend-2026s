@@ -23,7 +23,7 @@ function ThemeSwitch() {
   return (
     <>
       <div className='flex'>
-        <button className='ml-auto mr-10 mt-4.75 cursor-pointer' onClick={toggleTheme}>
+        <button className='ml-auto mr-10 mt-[19px] mb-[4px] cursor-pointer' onClick={toggleTheme}>
           <img src={Sun} alt="" className='hidden dark:block'/>
           <img src={Moon} alt="" className='block dark:hidden' />
         </button>

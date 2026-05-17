@@ -3,7 +3,7 @@ import dynasty2 from "../assets/dynasty2.svg";
 
 function AboutOldenburgskie() {
     return (
-    <div className="mt-[249px] mb-[219px]">
+    <div className="mt-[249px] mb-[219px] max-w-7xl mx-auto">
         <div className="flex items-start mb-[95px]">
         <img src={dynasty1} alt="" className="ml-[130px]"/>
             <div className="ml-[77px]">
