@@ -1,9 +1,11 @@
 import dynasty1 from "../assets/dynasty1.svg";
 import dynasty2 from "../assets/dynasty2.svg";
+import GoToTop from "../assets/GoToTop.svg";
 
 function AboutOldenburgskie() {
     return (
-    <div className="mt-[249px] mb-[219px] max-w-7xl mx-auto">
+    <div className="pt-[234px] mb-[219px] max-w-7xl mx-auto" id="about-oldenburgskie">
+        {/* <a href=""><img src={GoToTop} alt="" className="fixed right-[65px] bottom-[40px]"/></a> */}
         <div className="flex items-start mb-[95px]">
         <img src={dynasty1} alt="" className="ml-[130px]"/>
             <div className="ml-[77px]">

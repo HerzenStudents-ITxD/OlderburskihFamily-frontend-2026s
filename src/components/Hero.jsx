@@ -12,7 +12,21 @@ function Hero() {
             <HeroButton text="КЛУБ" />
             <HeroButton text="МУЗЕЙ" />
             <HeroButton text="СОБЫТИЯ" />
-            <HeroButton text="СЕМЬЯ" />
+            {/* <HeroButton text="СЕМЬЯ" /> */}
+            <div className="flex items-center justify-center group relative">
+              <button className="dark:text-white dark:bg-[#0B0B0B] rounded-[10px] w-[201px] h-[108px] 
+                  text-[30px] font-CormorantGaramond font-bold 
+                  dark:hover:bg-white duration-300 ease-out dark:hover:text-[#0B0B0B] cursor-pointer
+                  bg-white hover:bg-[#0B0B0B] text-[#0B0B0B] hover:text-white"><a href="">СЕМЬЯ</a></button>
+              <div class="absolute left-1/2 -translate-x-1/2 mt-2 hidden group-hover:block dark:bg-black bg-white rounded-[10px] w-[347px] py-1 z-10 top-[80px]">
+                <a href="" class="block px-4 py-2 dark:text-white text-[20px] font-semibold hover:underline text-black">
+                                                  БЛАГОТВОРИТЕЛЬНЫЕ И ОПЕКАЕМЫЕ УЧРЕЖДЕНИЯ</a>
+                <a href="" class="block px-4 py-2 dark:text-white text-[20px] font-semibold hover:underline text-black">ПИСЬМА И ВОСПОМИНАНИЯ</a>
+                <a href="" class="block px-4 py-2 dark:text-white text-[20px] font-semibold hover:underline text-black">ИМЕНИЯ</a>
+                <a href="" class="block px-4 py-2 dark:text-white text-[20px] font-semibold hover:underline text-black">РУССКОЕ ЗАРУБЕЖЬЕ </a>
+                <a href="" class="block px-4 py-2 dark:text-white text-[20px] font-semibold hover:underline text-black">РОМАНОВЫ</a>
+              </div>
+            </div>
           </div>
       </div>
     );
