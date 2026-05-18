@@ -16,7 +16,7 @@ function Events() {
     return (
       <div className="max-w-7xl mx-auto">
         <div>
-          <h2 className="text-[64px] font-bold ml-[566px] mt-[108px] mb-[46px]">КЛУБ</h2>
+          <h2 className="text-[64px] font-bold ml-[566px] mt-[108px] mb-[46px]" id="club">КЛУБ</h2>
           <div className="flex gap-[25px] ml-[75px]">
             <EventCard img={ClubEvent1} text="ХIII Рамонские чтения" date="24.05.2017"/>
             <EventCard img={ClubEvent2} text="Первая конференция 
@@ -26,7 +26,7 @@ function Events() {
           </div>
         </div>
         <div>
-          <h2 className="text-[64px] font-bold ml-[566px] mt-[58px] mb-[94px]">МУЗЕЙ</h2>
+          <h2 className="text-[64px] font-bold ml-[566px] mt-[58px] mb-[94px]" id="museum">МУЗЕЙ</h2>
           <div className="flex gap-[25px] ml-[75px]">
             <EventCard img={MuseumEvent1} text="В музее побывала Эмма 
                                             Александровна Анненкова" date="10.06.2016"/>

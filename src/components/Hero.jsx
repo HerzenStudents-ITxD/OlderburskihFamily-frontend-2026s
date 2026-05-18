@@ -9,8 +9,8 @@ function Hero() {
             <h1 className="text-white text-[128px] font-CormorantGaramond font-bold">ОЛЬДЕНБУРГСКИЕ</h1>
           </div>
           <div className="absolute left-1/2 -translate-x-1/2 bottom-[29px] flex gap-[80px]">
-            <HeroButton text="КЛУБ" />
-            <HeroButton text="МУЗЕЙ" />
+            <HeroButton text="КЛУБ" link={"#club"} />
+            <HeroButton text="МУЗЕЙ" link={"#museum"} />
             <HeroButton text="СОБЫТИЯ" />
             {/* <HeroButton text="СЕМЬЯ" /> */}
             <div className="flex items-center justify-center group relative">
